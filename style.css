@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+ }
+
+ nav{
+     background-color: green;
+     line-height: 80px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     padding: 0px 10px;
+     position:fixed;
+     top:0;
+     z-index:10;
+ }
+ 
+ .title {
+     color: white;
+     font-size: 40px;
+     display: flex;
+     text-align: left;
+     text-decoration: none;
+     list-style: none;
+ 
+ }
+ 
+ .sub-title {
+     color: white;
+     font-size: 25px;
+     display: flex;
+     text-align: right;
+     text-decoration: none;
+     list-style: none;
+ }
+
+ ul{
+     list-style: none;
+     text-decoration: none;
+     display: flex;
+     width: 30%;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ li:hover{
+   background-color:darkgreen;
+ }
+ 
+ article header{
+     height: 500px;
+ }
+ 
+ main header{
+     /* 背景画像の指定方法 */
+     background-image: url(img/イギリス.JPG);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover; 
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ main header p{
+     color: white;
+     font-size: 50px;
+     font-weight: bolder;
+     text-align: center;
+     letter-spacing: 7%;
+ }
+
+ 
+ .under {
+     border-bottom: 3px solid green;
+     width: 50px;
+     margin: 0 auto;
+ }
+ 
+ .contents {
+     text-align: center;
+     margin-top: 2%;
+ }
+ 
+ .contents-title {
+     font-size: 30px;
+     font-weight: bold;
+ }
+ 
+ .contents-title span {
+     color: green;
+ }
+ 
+ .contents p {
+     font-size: 20px;
+     padding-top: 0.5%;
+ }
+ 
+ .container {
+     width: 100%;
+ }
+ 
+ .container-70 {
+     width: 50%;
+     display: flex;
+     margin: 0 auto;
+ }
+
+ .sub-container img {
+  width: 70%;
+}
+ 
+ .sub-container {
+     width: 50%;
+     padding-top: 3%;   
+ }
+ 
+ .contents-title2{
+     text-align: center;
+     margin-top: 2%;
+ }
+
+ .contents-title2 span{
+   color: green;
+ }
+ 
+ .under2 {
+     border-bottom: 3px solid green;
+     width: 50px;
+     margin: 0 auto;
+ }
+ 
+ .contents-title2 {
+     font-size: 30px;
+     font-weight: bold;
+     margin: center;
+ }
+ 
+ .contents2 p {
+     font-size: 20px;
+     padding-top: 0.5%;
+     text-align: center;
+ }
+
+ .items{
+  /* 背景画像の指定方法 */
+  background-image: url(img/海.JPG);
+  height: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  text-align: center;
+}
+ 
+ .item {
+     width: 15%;
+     height: 75%;
+     background-color: rgba(255, 255, 255, 0.5);
+     border: 5px solid white;
+ }
+
+ .item h3{
+  color: green;
+  font-size: 20px;
+  padding: 10%;
+}
+
+ .item p{
+   text-align: left;
+ }
+ 
+ .contents3{
+     text-align: 0 auto;
+     margin-top: 10%;
+ }
+ 
+ .under3 {
+     border-bottom: 3px solid green;
+     width: 50px;
+     margin: 0 auto;
+ }
+
+ .target{
+   text-align: center;
+   font-size: 20px;
+   padding-top: 0.5%;
+ }
+ 
+ .contents-title3 {
+     font-size: 30px;
+     font-weight: bold;
+     text-align:center;
+     padding-top: 2%;
+ }
+ 
+ .contents-title3 span {
+     color:  green;
+ }
+
+ .parent {
+  padding-bottom: 4%;
+}
+ 
+ .children h2{
+     color: green;
+     font-size: 20px;
+     padding: 1%;
+     text-align: center;
+ }
+ 
+ .children p{
+     text-align: center;
+ }
+ 
+ footer {
+     background: green;
+     height: 15%;
+     padding-top: 2%;
+     color: white;
+ }
+ 
+ .box {
+     border: 1px solid #fff;
+     text-align: center;
+     font-size: 30px;
+     font-weight: bold;
+     margin-bottom: 20px;
+ }
+
+ .box:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+ }
+ 
+ .margin-auto {
+     margin: 0 auto;
+     width: 170px;  
+ }
+
+ .margin-auto a{
+  text-decoration: none;
+  color: white;
+ }
